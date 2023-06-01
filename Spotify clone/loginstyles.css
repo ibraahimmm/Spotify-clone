@@ -1,0 +1,251 @@
+
+
+
+body{
+    background-color:#101010;
+    font-family: 'Rubik', sans-serif;
+}
+   
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #000000cc;
+    width: 100%;
+    height: 40px;
+    color: #b3b3b3;
+    padding: 30px 30px;
+    
+
+}
+.topbar img{
+    height: 45px;
+    width: 45px;
+}
+.topbar span{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  
+
+    position: relative;
+    left: 3px;
+    bottom: 16px;
+   
+}
+.content{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    
+    
+    
+    height: 1030px;
+    width: 750px;
+    background-color: black;
+    position: relative;
+    left: 31%;
+    top: 30px;
+    border-radius: 1%;
+    
+}
+h1{
+    font-size: 2.7rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    
+
+}
+.button {
+    --color: #ffffff;
+    
+    background-color: transparent;
+    padding: 0.7rem 0;
+    border-radius: 2.9em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid #b3b3b3 ;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    height:3.5 rem;
+    margin-top: 10px;
+    width: 320px;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+   .glogo1{
+    height: 20px;
+    width: 20px; 
+    margin-right: 30px;
+   }
+   .glogo2{
+    height: 20px;
+    width: 20px; 
+   }
+   .glogo3{
+    height: 20px;
+    width: 20px; 
+   }
+  
+
+   hr{
+    background-color: #ffffff;
+    width: 550px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: none;
+    height: 1px;
+    color: #333;  /* old IE */
+    background-color: #333;
+   }
+
+   .container {
+    cursor: pointer;
+  }
+  
+  .container input {
+    display: none;
+  }
+  
+  .container svg {
+    overflow: visible;
+  }
+  
+  .path {
+    fill: none;
+    stroke: white;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;
+    stroke-dasharray: 241 9999999;
+    stroke-dashoffset: 0;
+  }
+  
+  .container input:checked ~ svg .path {
+    stroke-dasharray: 70.5096664428711 9999999;
+    stroke-dashoffset: -262.2723388671875;
+  }
+  h3{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-right: 202px;
+  }
+  .pass{
+    margin-right: 268px;
+  }
+  h4{
+    color: white;
+    position: relative;
+    left: 40px;
+    top: 25px;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+  }
+  input{
+    border: solid 1.5px #9e9e9e;
+    background: none;
+    background-color: #ecebe810 ;
+    padding: 0.9rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    width: 320px;
+    border-radius: 0.3rem;
+
+  }
+  .container{
+    position: relative;
+    right: 107px;
+    margin: 7px 10px;
+
+  }
+  .loginbtn{
+    padding: 0.7rem;
+    width: 340px;
+    font-size: 1rem;
+    background-color: #1DB954;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border: none;
+    
+
+  }
+  .content input placeholder{
+    font-size: medium;
+  }
+ span {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 28px;
+
+ }
+ .last{
+    color: #b3b3b3;
+    text-decoration: none;
+    margin-right: 150px;
+ }
+ .last1{
+   position: relative;
+   left: 85px;
+   bottom: 43px;
+ }
+   

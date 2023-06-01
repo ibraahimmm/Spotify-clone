@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    background-color: #000000;
+    padding: 24px;
+  }
+  .sidebar .logo img {
+    width: 130px;
+  }
+  .sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .sidebar .navigation ul li {
+    padding: 10px 0px;
+  }
+  .sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .sidebar .navigation ul li a:hover,
+  .sidebar .navigation ul li a:active,
+  .sidebar .navigation ul li a:focus {
+    color: #ffffff;
+  }
+  .sidebar .navigation ul li a:hover .fa,
+  .sidebar .navigation ul li a:active .fa,
+  .sidebar .navigation ul li a:focus .fa {
+    color: #b3b3b3;
+  }
+  .sidebar .navigation ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .sidebar .navigation ul li a:hover .fa:hover,
+  .sidebar .navigation ul li a:hover .fa:active,
+  .sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+  }
+  .sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+  }
+  .sidebar .policies ul {
+    list-style: none;
+  }
+  .sidebar .policies ul li {
+    padding-bottom: 5px;
+  }
+  .sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .sidebar .policies ul li a:hover,
+  .sidebar .policies ul li a:active,
+  .sidebar .policies ul li a:focus {
+    text-decoration: underline;
+  }
+  .main-container {
+    margin-left: 245px;
+    
+    background: linear-gradient( #2d0b6c, #895bc4);
+    height: 430px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 14px 30px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #fffefe;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #202020bb;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+    margin-right: 10px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+  }
+ 
+
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
+  }
+  .fa-user{
+    font-size: 1.3rem;
+    color: #fffefe;
+    
+  }
+  .fa-download{
+    font-size: 1.3rem;
+    color: #fffefe;
+    
+  }
+  .liked{
+    margin-left: 30px;
+    margin-top: 30px;
+  
+    
+  }
+
+  .liked > h6, .liked> h1 {
+    position: relative;
+    left: 327px;
+    bottom: 200px;
+    color: #fffefe;
+  }
+  .liked h1{
+    font-size: 5rem;
+    margin: 10px 0 50px 0;
+    
+  }
+
+  .liked h6{
+    font-size: medium;
+  }
+  .liked i{
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 130px;
+    padding: 13px 17px;
+    border-radius: 100%;
+    background-color: green;
+
+   
+    
+  }
+  .songs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .songs span{
+    color: #f2f2f2;
+    font-size: medium;
+    font-weight: 600;
+    
+    
+  }
+  hr{
+    margin-top: -100px;
+  }
+  .songs img{
+    height: 40px;
+    width: 40px;
+  }
+  h5{
+    position: absolute;
+    right: 1475px;
+    top: 25px;
+    color:#b3b3b3 ;
+    font-size: smaller;
+    font-weight: 500;
+  }
+  h4{
+    margin-left: 400px;
+    color:#b3b3b3 ;
+    font-size: smaller;
+    font-weight: 500;
+  }
+  .songs a{
+    margin-left: 300PX;
+  }
+  .songs p{
+    color: #b3b3b3;
+    margin-left: 10px;
+  }
+  h5:hover{
+    color: #ffffff;
+    text-decoration: underline;
+  }
